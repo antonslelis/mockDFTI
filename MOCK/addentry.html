@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Blog System</title>
+<link rel='stylesheet' type='text/css' href='blog.css' />
+</head>
+<body>
+<h1>Add a new blog entry</h1>
+
+<form method="post" action="addentry.php">
+
+Title:
+<input name="entry_title" /> <br />
+
+<!-- Text areas (multi-line inputs) work in the same way as regular form fields.
+You read them from PHP in EXACTLY the same way as you would a regular form field. -->
+
+Details: <br />
+<textarea name="entry_details">Please enter your blog entry...</textarea>
+
+<br />
+
+<input type="submit" value="Go!" />
+
+</form>
+</body>
+</html>
